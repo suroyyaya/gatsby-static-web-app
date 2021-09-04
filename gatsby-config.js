@@ -30,8 +30,17 @@ module.exports = {
       },
     },
     `gatsby-plugin-gatsby-cloud`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+			resolve: 'gatsby-source-graphql',
+			options: {
+				// This type will contain remote schema Query type
+				typeName: 'team',
+				// This is field under which it's accessible
+				fieldName: 'team',
+				// Url to query from
+				url:
+            'https://api-ap-northeast-1.graphcms.com/v2/ckt2iigfn0gv001wbfblidgqv/master',
+			},
+		},
   ],
 }

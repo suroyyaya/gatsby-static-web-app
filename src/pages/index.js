@@ -20,9 +20,9 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem` }}
     />
     <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/animation">Go to page Example File Gif</Link> <br />
-      <Link to="/video">Go to page Example File Video"</Link>
+      <Link to="/pageGif">Go to page Example File Gif</Link> <br />
+      <Link to="/video">Go to page Example File Video</Link> <br />
+      <Link to="/Product">Go to page Example Animation</Link> <br />
     </p>
   </Layout>
 )
