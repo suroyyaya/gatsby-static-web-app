@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-
 import MenuItem from '../common/MenuItem'
 //import styles from './TopHeader.module.scss'
 

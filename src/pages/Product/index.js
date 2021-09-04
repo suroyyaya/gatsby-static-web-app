@@ -17,7 +17,7 @@ const Product = () => (
 		fluid
 		className="fluid"
 	>
-		{/*<TopHeader />*/}
+		<TopHeader />
 		<Row>
 			<Col lg={12} xs={12}>
 				<div className="productContainer">

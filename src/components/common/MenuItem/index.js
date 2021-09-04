@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
 //import styles from './MenuItem.module.scss'
-var menuItem = "menuItem";
+var menuItems = "menuItem";
 const MenuItem = props => {
 	const { index, isActive, label, target } = props
 	const [hovered, setHovered] = useState(false)
@@ -12,7 +12,7 @@ const MenuItem = props => {
 	return (
 		<li
 			key={index}
-			className={`${menuItem} ${isActive ? 'isActive' : ''}`}
+			className={`${menuItems} ${isActive ? 'isActive' : ''}`}
 			onMouseEnter={() => toggleHover()}
 			onMouseLeave={() => toggleHover()}
 		>

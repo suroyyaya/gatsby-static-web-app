@@ -5,7 +5,6 @@ import PropTypes from 'prop-types'
 
 const HeaderH2 = props => {
 	const { text, className } = props
-	console.log("11:",text, className)
 	return (
 		<h2 className={className}>
 			{text}
