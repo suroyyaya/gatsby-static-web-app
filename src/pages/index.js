@@ -4,11 +4,13 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import "./index.scss";
+
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi Yaya2</h1>
+    <h1 className="test">Hi Yaya2</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <StaticImage
@@ -22,7 +24,7 @@ const IndexPage = () => (
     <p>
       <Link to="/pageGif">Go to page Example File Gif</Link> <br />
       <Link to="/video">Go to page Example File Video</Link> <br />
-      <Link to="/Product">Go to page Example Animation</Link> <br />
+      <Link to="/animation">Go to page Example Animation</Link> <br />
     </p>
   </Layout>
 )

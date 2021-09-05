@@ -2,18 +2,12 @@
 @import '../../../src/styles/mixins/mediaQueries.scss';
 @import '../../../src/styles/mixins/HeaderMixins.scss';
 @import '../../../src/styles/mixins/ParagraphMixin.scss';
-$color-red: pink;
-
-.test2{
-    color: $color-red !important;
-}
 
 .fluid {
     padding: 0;
 }
 
 .productContainer, .functionContainer {
-    background-color: aqua !important;
     .paragraph {
         @include p;
     }

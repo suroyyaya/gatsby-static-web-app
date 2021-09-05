@@ -1,5 +1,6 @@
 @import '../../../styles/mixins/HeaderMixins';
 @import '../../../styles/variables';
+$color-red: pink;
 
 .mainH2 {
     @include HeaderH2($main-green);

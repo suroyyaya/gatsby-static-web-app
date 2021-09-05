@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
-//import styles from './Paragraph.module.scss'
+import "./Paragraph.scss";
 
 const Paragraph = props => {
 	const { text, className } = props

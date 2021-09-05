@@ -42,5 +42,12 @@ module.exports = {
             'https://api-ap-northeast-1.graphcms.com/v2/ckt2iigfn0gv001wbfblidgqv/master',
 			},
 		},
+    `gatsby-plugin-sass`
+  //   {
+  //     resolve: `gatsby-plugin-sass`,
+  //     options: {
+  //       implementation: require("sass"),
+  //   },
+  //  },
   ],
 }

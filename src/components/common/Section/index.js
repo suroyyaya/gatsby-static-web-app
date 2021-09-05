@@ -3,8 +3,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Row, Col } from 'react-flexbox-grid'
 import styled from 'styled-components'
-
-//import styles from './Section.module.scss'
+import "./Section.scss";
 
 
 const SectionContainer = styled.div`

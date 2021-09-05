@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
-//import styles from './HeaderH2.module.scss'
+import "./HeaderH2.scss";
 
 const HeaderH2 = props => {
 	const { text, className } = props

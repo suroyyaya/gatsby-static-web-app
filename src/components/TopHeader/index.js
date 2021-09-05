@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import MenuItem from '../common/MenuItem'
-//import styles from './TopHeader.module.scss'
+import "./TopHeader.scss";
 
 
 const TopHeader = () => {
@@ -28,7 +28,6 @@ const TopHeader = () => {
 		  }
 		}
 	`)
-	//console.log("styles:",styles);
 	var topHeader = 'topHeader';
 	return (
 		<div className={`${topHeader} ${curPath === '/' ? 'homePage' : ''}`}>
@@ -49,9 +48,9 @@ const TopHeader = () => {
 						/>
 					))}
 				</ul>
-				<ul className='menuRight'>
+				{/*<ul className='menuRight'>
 					<MenuItem index={8} target="/Contact" label="Contact" />
-				</ul>
+					</ul>*/}
 			</div>
 		</div>
 	)

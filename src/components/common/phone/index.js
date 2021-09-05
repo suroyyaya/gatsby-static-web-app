@@ -8,7 +8,7 @@ import { useMediaQuery } from 'react-responsive'
 
 import redStars from '../../../assets/img/misc/red_starts.svg'
 import '@zilahir/html5-device-mockups/dist/device-mockups.css'
-//import styles from './Phone.module.scss'
+import "./Phone.scss";
 
 const PurleWrapper = styled.div`
 	&:before {

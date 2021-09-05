@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
+import "./MenuItem.scss";
 
-//import styles from './MenuItem.module.scss'
 var menuItems = "menuItem";
 const MenuItem = props => {
 	const { index, isActive, label, target } = props

@@ -4,7 +4,7 @@ import { Row, Col } from 'react-flexbox-grid'
 
 import FooterWave from '../../assets/img/misc/footer_wave.png'
 import { footerMenu } from '../api/footer'
-//import styles from './Footer.module.scss'
+import "./Footer.scss"
 
 const Footer = () => {
 	const { legalText } = footerMenu.getFooterTexts()[0]
