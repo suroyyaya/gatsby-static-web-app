@@ -8,9 +8,13 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+// import { Grid, Row, Col } from "react-flexbox-grid"
+// import TopHeader from "../components/TopHeader"
+// import Footer from "../components/Footer"
+// import Section from "../components/common/Section"
 
 import Header from "./header"
-import "./layout.css"
+import "./layout.scss"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -22,7 +26,19 @@ const Layout = ({ children }) => {
       }
     }
   `)
-
+  // return (
+  //   <Grid fluid className="fluid">
+  //   <TopHeader />
+  //   <Row>
+  //     <Col lg={12} xs={12}>
+  //       <div className="productContainer">
+  //         <main>{children}</main>
+  //       </div>
+  //     </Col>
+  //   </Row>
+  //   <Footer />
+  // </Grid>
+  // )
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
